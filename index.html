@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Bhupendra Huidrom</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Bhupendra Huidrom</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          class="curve"
+          src="./asseets/bhup_Profile.jpeg"
+          alt="Bhupendra profile-pic"
+          height="450px"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm'</p>
+        <h1 class="title">Bhupendra Huidrom</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./asseets/Bhupendra_Huidrom_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social-container">
+          <img
+            src="./asseets/linkedin.png"
+            alt="LinkeIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/bhupendra-huidrom-5313121b7'"
+          />
+
+          <img
+            src="./asseets/github.png"
+            alt="Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/bhupendra1024'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="asseets/IMG_5052.jpg"
+            alt="Profile pic"
+            class="about-pic"
+            height="500px"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="asseets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+
+              <h3>Experience</h3>
+              <p>
+                Fresh Out of College <br />
+                Frontend-Development
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="asseets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+
+              <h3>Education</h3>
+              <p>
+                B.Tech in Computer SCience Engineering <br />Sikkim Manipal
+                Institute of Technology
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              B.Tech Graduate in computer science and engineering. Looking to
+              apply my skills and assist with the implementation of innovative
+              ideas and add resourceful working to achieve the corporation’s
+              success as well as success for myself as a valuable representation
+              .
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/asseets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="explore_my">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Frontend-Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Boostrap</h3>
+                  <p>Intermdiate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Other Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermdiate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./asseets/checkmark.png"
+                  alt="experience-icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermdiate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/asseets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div>
+                <h1 class="list">
+                  Detection and segregation of plastic waste using a Robotic arm
+                </h1>
+                <ul class="list">
+                  <li>
+                    Trained and fine-tuned YOLOv5 model to detect and classify
+                    plastic waste objects with 90%+ accuracy,resulting in a 50%
+                    reduction in false positives and increased operational
+                    efficiency.
+                  </li>
+                  <li>
+                    Meticulously fine-tuned hyperparameters within YOLOv5 to
+                    optimize the detection accuracy, ensuring a minimal margin
+                    of error and improved overall performance by 15%.
+                  </li>
+                  <li>
+                    Integration of a Robotic Arm with Raspberry Pi. This enabled
+                    us to automate the segregation process immediately upon the
+                    detection of plastic waste, improving both speed and
+                    efficiency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div>
+                <h1 class="list">Voice Assistance Using Python</h1>
+                <ul class="list-1">
+                  <li>
+                    Designed and developed a voice assistance system using
+                    Python, which recognizes spoken commands with high accuracy.
+                  </li>
+                  <li>
+                    To enhance the user experience,I employed the
+                    SpeechRecognition module, ensuring the voice recognition
+                    component performed seamlessly.
+                  </li>
+                  <li>
+                    The Pyttsx3 module was utilized for converting text to
+                    speech, employing the Sapi5 technology for high-quality and
+                    natural-sounding responses.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <div>
+                <h1 class="list">
+                  Detection and segregation of plastic waste using a Robotic arm
+                </h1>
+                <ul class="list">
+                  <li>
+                    Trained and fine-tuned YOLOv5 model to detect and classify
+                    plastic waste objects with 90%+ accuracy,resulting in a 50%
+                    reduction in false positives and increased operational
+                    efficiency.
+                  </li>
+                  <li>
+                    Meticulously fine-tuned hyperparameters within YOLOv5 to
+                    optimize the detection accuracy, ensuring a minimal margin
+                    of error and improved overall performance by 15%.
+                  </li>
+                  <li>
+                    Integration of a Robotic Arm with Raspberry Pi. This enabled
+                    us to automate the segregation process immediately upon the
+                    detection of plastic waste, improving both speed and
+                    efficiency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/asseets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./asseets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:bhupendrahuidrom1024@gmail.com"
+              >bhupendrahuidrom1024@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./asseets/linkedin.png"
+            alt="LinkeIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/bhupendra-huidrom-5313121b7"
+              >Linkedin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Bhupendra Huidrom. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
