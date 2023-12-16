@@ -321,12 +321,14 @@ img.curve{
   height: 400px;
   width: 400px;
   margin: auto 0;
+  padding-left: 2rem;
 }
 
 /* explore my para heading */
 
 .explore_my{
   text-align: center;
+  padding-top: 4rem;
 }
 
 
@@ -385,6 +387,7 @@ article .icon{
 /* Project Section */
 
 #projects{
+  margin-top: 15rem;
   position: relative;
 }
 
@@ -416,6 +419,7 @@ article .icon{
 /* Contacts */
 
 #contact {
+  margin-top: 40rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
