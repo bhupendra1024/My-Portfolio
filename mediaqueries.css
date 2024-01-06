@@ -45,7 +45,7 @@
   }
 
   .about-containers{
-    margin-top: 0
+    margin-top: 0;
   }
 }
 
@@ -60,7 +60,10 @@
   }
   #profile{
     height: 83vh;
+    margin-bottom: 4em;
   }
+
+  
   
   #projects{
     margin-top: 2px;
@@ -77,12 +80,14 @@
 
   .about-containers, .contact-info-upper-container, .btn-container{
     flex-wrap: wrap;
-    
   }
+
 
   .contact-info-container{
     margin: 0;
+
   }
+ 
 
   .contact-info-container p, .nav-links li a{
     font-size: 1rem;
